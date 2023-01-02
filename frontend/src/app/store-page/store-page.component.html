@@ -1,1 +1,8 @@
-<p>store-page works!</p>
+<h1>PRODUCTS</h1>
+<ul class="list-group">
+  <li 
+      *ngFor="let product of products"
+      class="list-group-item">
+      {{ product.product_name }}
+  </li>
+</ul>
