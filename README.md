@@ -1,5 +1,6 @@
-# demo-store
+# demo
 
+<!--
 ## Prerequisites
 
 - ruby 
@@ -13,6 +14,7 @@
 
     # start the rails server
     cd API 
+    bundle update
     rails server
 
 The API is at [`http://localhost:3000/products`](http://localhost:3000/products)
@@ -20,6 +22,7 @@ The API is at [`http://localhost:3000/products`](http://localhost:3000/products)
 **Frontend**
 
     cd frontend
+    npm install
     ng serve
 
 The frontend is at [`http://localhost:4200`](http://localhost:4200)
@@ -58,3 +61,5 @@ GCP console is used to monitor metrics and set up alerts.
 - API versioning
 - CI/CD pipeline
 - move from Rest to GraphQL
+
+-->

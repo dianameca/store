@@ -12,7 +12,6 @@
 
 ActiveRecord::Schema[7.0].define(version: 2023_01_02_074030) do
   create_table "products", force: :cascade do |t|
-    t.string "product_id"
     t.string "product_name"
     t.string "product_description"
     t.string "product_keywords"
